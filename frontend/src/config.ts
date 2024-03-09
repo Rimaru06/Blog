@@ -1,0 +1,1 @@
+export const BACKEND_URL = "https://backend.shivraodanger04.workers.dev"; 
