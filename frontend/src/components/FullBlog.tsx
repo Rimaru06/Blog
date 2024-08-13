@@ -18,7 +18,7 @@ const FullBlog = (blog: Blog) => {
         <div className="grid grid-cols-12 px-10 w-full     max-w-screen-xl pt-12">
           <div className="col-span-8">
             <div className="text-3xl font-extrabold">{blog.blog.title}</div>
-            <div className="text-slate-500 pt-2">post on 2nd feb 2034</div>
+            <div className="text-slate-500 pt-2">post on 10 aug 2024</div>
             <div className="pt-4 text-slate-500">{blog.blog.content}</div>
           </div>
           <div className=" col-span-4">
