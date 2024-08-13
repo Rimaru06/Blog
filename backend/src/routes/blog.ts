@@ -77,7 +77,6 @@ blogRouter.put("/", async (c) => {
     return c.json({ message: "Internal Error" }, 500);
   }
 });
-// add pagination here
 blogRouter.get("/bulk", async (c) => {
   const prisma = new PrismaClient({
     datasourceUrl: c.env.DATABASE_URL,
